@@ -1,0 +1,8 @@
+@data annotation in task class is used to reduce boiler plate code that is getter and setter which is invoked from dependency lambook
+@data annotation having @toString,@getter and @setter and many.
+
+repository is a class or an interface that connects a application to database that allows to do curd operations.
+create,read,update,delete.
+what jpa repository tells is    it gives predefined methods for curd
+jpa<task,long>
+  where task is the type of entitiy it means for task class it is giving predefined methods to perform curd operations.
